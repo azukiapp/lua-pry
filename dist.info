@@ -1,0 +1,13 @@
+name = "lua-pry"
+version = "0.0.1"
+
+desc = "Pry is a powerful alternative to the standard lua shell"
+author = "Everton Ribeiro"
+license = "MIT"
+url = "https://github.com/azukiapp/lua-pry"
+maintainer = "Everton Ribeiro"
+
+depends = {
+  "lua >= 5.1, < 5.3",
+  "lua-linenoise >= 0.1.0"
+}
